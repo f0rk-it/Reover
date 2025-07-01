@@ -6,7 +6,7 @@ import { TbCoinFilled } from 'react-icons/tb'
 
 export default function HeroSection() {
     return (
-        <>
+        <div className="hero-container">
             <div className="pill">
                 55,000+ trusted Businesses
             </div>
@@ -41,6 +41,6 @@ export default function HeroSection() {
 
                 <span className='bag bottom-left'><FaSackDollar /></span>
             </div>
-        </>
+        </div>
     )
 }
