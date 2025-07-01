@@ -1,12 +1,48 @@
-# React + Vite
+# 🤑 Reover Landing Page Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive React + CSS remake of the **Reover** landing page originally shared on X (Twitter).  
+Built for fun, practice, and to master gradients that scream *fintech glow-up*.
 
-Currently, two official plugins are available:
+## 🔍 Live Preview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[👉 Check it out here](#) *(Replace with your deployment link if available)*
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📸 Screenshot
+
+![reover-preview](https://github.com/user-attachments/assets/ca9436b8-918e-4166-bf93-eabc09c01b61)
+
+
+---
+
+## ⚙️ Tech Stack
+
+- **React** – Component-based structure
+- **CSS** – Custom styling with gradients & responsive layout
+- **Google Fonts** – *Inter* for a modern SaaS vibe
+- **SVG Icons** – For money bags and dollar stacks (optional: FontAwesome or HeroIcons)
+
+---
+
+## 🚀 Features
+
+- Gradient glow background using pure CSS
+- Smooth and responsive layout
+- Button hover transitions
+- Clean and minimal header with CTA
+- Optimized typography with Inter font
+- Pixel-matching design inspiration
+
+---
+
+## 🧪 Getting Started
+
+Clone this repo and run locally:
+
+```bash
+git clone https://github.com/your-username/reover-landing.git
+cd reover-landing
+npm install
+npm start
+```
