@@ -1,5 +1,5 @@
 #design {
-    width: 98vw;
+    width: 100%;
     height: 100vh;
     /* padding-top: 10px; Add space for the fixed navbar (70px height + 40px margin) */
     background: #77BAAD;
@@ -11,7 +11,7 @@
 }
 
 #credits {
-    width: 98vw;
+    width: 100%;
     height: 70vh;
     position: relative;
     display: flex;
@@ -22,11 +22,13 @@
 
 @media (max-width: 768px) {
     #design {
-        height: 80vh; /* Adjust height for smaller screens */
+        min-height: 100vh;
+        padding: 80px 15px 20px 15px; /* Add top padding for navbar */
+        text-align: center;
     }
     
     #credits {
-        height: auto; /* Allow credits section to adjust based on content */
-        padding: 20px; /* Add padding for better spacing */
+        min-height: auto;
+        padding: 40px 15px;
     }
 }
