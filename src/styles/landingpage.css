@@ -1,0 +1,32 @@
+#design {
+    width: 98vw;
+    height: 100vh;
+    /* padding-top: 10px; Add space for the fixed navbar (70px height + 40px margin) */
+    background: #77BAAD;
+    background: radial-gradient(circle,rgba(119, 186, 173, 1) 0%, rgba(255, 255, 255, 1) 51%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#credits {
+    width: 98vw;
+    height: 70vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@media (max-width: 768px) {
+    #design {
+        height: 80vh; /* Adjust height for smaller screens */
+    }
+    
+    #credits {
+        height: auto; /* Allow credits section to adjust based on content */
+        padding: 20px; /* Add padding for better spacing */
+    }
+}

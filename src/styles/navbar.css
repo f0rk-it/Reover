@@ -1,0 +1,84 @@
+#navbar {
+    position: fixed;
+    top: 20px; /* Explicitly set top position */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 15px;
+    padding: 10px 20px;
+    margin: 0 auto;
+    width: 80%;
+    height: 70px;
+    left: 0;
+    right: 0;
+    z-index: 1000; /* Ensure navbar stays on top */
+    backdrop-filter: blur(15px) saturate(180%);
+    background-color: rgba(255, 255, 255, 0.25); /* More transparent for glass effect */
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Subtle glass border */
+}
+
+.navbar_left {
+    display:  flex;
+    align-items: center;
+}
+
+.navbar_logo {
+    font-size: 50px;
+    color: #08806B;
+    margin-right: 10px;
+}
+
+.navbar_brand {
+    font-size: 30px;
+}
+
+.navbar_center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+a.navbar_link {
+    text-decoration: none;
+    font-size: 18px;
+    color: #08806B;
+    transition: color 0.3s ease-in-out;
+}
+
+a.navbar_link:hover {
+    color: #98CBBE;
+}
+
+.navbar_right {
+    display: flex;
+    align-items: center;
+}
+
+.black-btn {
+    background-image: linear-gradient(to right, #1D976C 0%, #77BAAD  51%, #1D976C  100%);
+    margin: 10px;
+    padding: 15px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    border: none;    
+}
+
+.black-btn:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+@media (max-width: 910px) {
+    .dont-show-on-mobile {
+        display: none;
+    }
+}
